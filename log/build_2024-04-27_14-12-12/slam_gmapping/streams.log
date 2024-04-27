@@ -1,0 +1,392 @@
+[0.049s] Invoking command in '/home/datn/ydlidar_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy LD_LIBRARY_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/datn/ydlidar_ws/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/datn/ydlidar_ws/install/slam_gmapping
+[0.337s] -- The C compiler identification is GNU 9.4.0
+[0.609s] -- The CXX compiler identification is GNU 9.4.0
+[0.631s] -- Check for working C compiler: /usr/bin/cc
+[0.965s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.969s] -- Detecting C compiler ABI info
+[1.353s] -- Detecting C compiler ABI info - done
+[1.408s] -- Detecting C compile features
+[1.411s] -- Detecting C compile features - done
+[1.431s] -- Check for working CXX compiler: /usr/bin/c++
+[1.903s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.909s] -- Detecting CXX compiler ABI info
+[2.324s] -- Detecting CXX compiler ABI info - done
+[2.384s] -- Detecting CXX compile features
+[2.387s] -- Detecting CXX compile features - done
+[2.391s]  -fuse-ld=lld -Wl,--disable-new-dtags
+[2.416s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.580s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.581s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.614s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.856s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[4.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.181s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.791s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.078s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.997s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.521s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[6.586s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[6.944s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.955s] -- Looking for pthread.h
+[7.338s] -- Looking for pthread.h - found
+[7.340s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.738s] -- Looking for pthread_create in pthreads
+[8.068s] -- Looking for pthread_create in pthreads - not found
+[8.069s] -- Looking for pthread_create in pthread
+[8.421s] -- Looking for pthread_create in pthread - found
+[8.425s] -- Found Threads: TRUE  
+[10.606s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[10.661s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[10.684s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[10.804s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[11.108s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[11.397s] -- Found openslam_gmapping: 0.1.2 (/home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[11.420s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.841s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.842s] -- Configured cppcheck include dirs: /home/datn/ydlidar_ws/slam_gmapping/include
+[11.843s] -- Configured cppcheck exclude dirs and/or files: 
+[11.846s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.850s] -- Added test 'lint_cmake' to check CMake code style
+[11.853s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.865s] -- Added test 'uncrustify' to check C / C++ code style
+[11.866s] -- Configured uncrustify additional arguments: 
+[11.869s] -- Added test 'xmllint' to check XML markup files
+[11.901s] -- Configuring done
+[11.981s] -- Generating done
+[11.988s] -- Build files have been written to: /home/datn/ydlidar_ws/build/slam_gmapping
+[12.025s] Invoked command in '/home/datn/ydlidar_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy LD_LIBRARY_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/datn/ydlidar_ws/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/datn/ydlidar_ws/install/slam_gmapping
+[12.034s] Invoking command in '/home/datn/ydlidar_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy LD_LIBRARY_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/datn/ydlidar_ws/build/slam_gmapping -- -j4 -l4
+[12.225s] [35m[1mScanning dependencies of target transform[0m
+[12.225s] [35m[1mScanning dependencies of target slam_gmapping[0m
+[12.548s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[12.550s] [ 50%] [32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o[0m
+[19.770s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[19.771s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.771s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.772s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[19.772s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[19.773s]   140 |  [01;35m[Kif[m[K (count>0)
+[19.773s]       |  [01;35m[K^~[m[K
+[19.774s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[19.774s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.775s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.775s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[19.776s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[19.776s]   140 |  [01;35m[Kif[m[K (count>0)
+[19.777s]       |  [01;35m[K^~[m[K
+[19.777s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[19.777s]   142 |   [01;36m[Kout[m[K++;
+[19.778s]       |   [01;36m[K^~~[m[K
+[19.779s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[19.779s]   142 |   [01;36m[Kout[m[K++;
+[19.780s]       |   [01;36m[K^~~[m[K
+[19.795s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10[m[K,
+[19.796s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.797s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.797s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/point.h:[m[K At global scope:
+[19.798s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/point.h:205:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.799s]   205 | }[01;35m[K;[m[K //end namespace
+[19.800s]       |  [01;35m[K^[m[K
+[19.800s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10[m[K,
+[19.801s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.801s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.802s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/point.h:[m[K At global scope:
+[19.802s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/point.h:205:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.803s]   205 | }[01;35m[K;[m[K //end namespace
+[19.803s]       |  [01;35m[K^[m[K
+[19.804s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4[m[K,
+[19.804s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+[19.805s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.805s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.806s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.806s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.807s]    21 | }[01;35m[K;[m[K //end namespace
+[19.807s]       |  [01;35m[K^[m[K
+[19.808s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4[m[K,
+[19.808s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+[19.808s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.809s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.809s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.810s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.810s]    21 | }[01;35m[K;[m[K //end namespace
+[19.811s]       |  [01;35m[K^[m[K
+[19.811s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+[19.812s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.813s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.813s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.814s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.815s]    23 | }[01;35m[K;[m[K //end namespace
+[19.815s]       |  [01;35m[K^[m[K
+[19.816s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+[19.817s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.818s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.818s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.819s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.819s]    23 | }[01;35m[K;[m[K //end namespace
+[19.820s]       |  [01;35m[K^[m[K
+[19.820s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7[m[K,
+[19.821s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.821s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.822s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.822s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.823s]    17 | }[01;35m[K;[m[K
+[19.823s]       |  [01;35m[K^[m[K
+[19.824s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7[m[K,
+[19.824s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.825s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.825s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.826s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.826s]    17 | }[01;35m[K;[m[K
+[19.827s]       |  [01;35m[K^[m[K
+[19.827s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8[m[K,
+[19.827s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.828s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.828s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.829s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.829s]    33 | }[01;35m[K;[m[K
+[19.830s]       |  [01;35m[K^[m[K
+[19.830s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8[m[K,
+[19.831s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.832s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.832s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.833s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.833s]    33 | }[01;35m[K;[m[K
+[19.834s]       |  [01;35m[K^[m[K
+[19.834s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9[m[K,
+[19.835s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.835s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.835s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.836s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.836s]    27 | }[01;35m[K;[m[K
+[19.837s]       |  [01;35m[K^[m[K
+[19.837s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9[m[K,
+[19.838s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.838s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.839s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.839s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.840s]    27 | }[01;35m[K;[m[K
+[19.840s]       |  [01;35m[K^[m[K
+[19.841s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10[m[K,
+[19.841s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.842s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.842s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.843s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.843s]    24 | }[01;35m[K;[m[K
+[19.843s]       |  [01;35m[K^[m[K
+[19.844s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10[m[K,
+[19.844s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.845s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.846s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.846s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.847s]    24 | }[01;35m[K;[m[K
+[19.847s]       |  [01;35m[K^[m[K
+[19.848s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11[m[K,
+[19.848s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.849s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.849s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.850s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.850s]    15 | }[01;35m[K;[m[K
+[19.851s]       |  [01;35m[K^[m[K
+[19.851s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11[m[K,
+[19.852s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.852s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.853s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.853s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.854s]    15 | }[01;35m[K;[m[K
+[19.854s]       |  [01;35m[K^[m[K
+[19.855s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.856s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.857s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.857s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.858s]    27 | }[01;35m[K;[m[K
+[19.858s]       |  [01;35m[K^[m[K
+[19.859s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[19.859s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.860s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.860s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.861s]    27 | }[01;35m[K;[m[K
+[19.861s]       |  [01;35m[K^[m[K
+[19.862s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:5[m[K,
+[19.862s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[19.863s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.863s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.864s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.864s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.865s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.865s]     6 | }[01;35m[K;[m[K
+[19.866s]       |  [01;35m[K^[m[K
+[19.866s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:5[m[K,
+[19.867s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[19.867s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.867s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.868s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.868s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.869s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.869s]     6 | }[01;35m[K;[m[K
+[19.870s]       |  [01;35m[K^[m[K
+[19.870s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:6[m[K,
+[19.870s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[19.871s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.871s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.872s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.872s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.873s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.873s]   185 | }[01;35m[K;[m[K
+[19.874s]       |  [01;35m[K^[m[K
+[19.874s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:6[m[K,
+[19.875s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[19.875s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.875s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.876s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.876s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.877s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.877s]   185 | }[01;35m[K;[m[K
+[19.878s]       |  [01;35m[K^[m[K
+[19.880s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[19.880s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.881s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.881s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.882s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.883s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:262:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.883s]   262 | }[01;35m[K;[m[K
+[19.884s]       |  [01;35m[K^[m[K
+[19.884s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[19.885s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.885s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.886s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.886s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.887s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:262:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.887s]   262 | }[01;35m[K;[m[K
+[19.888s]       |  [01;35m[K^[m[K
+[19.888s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5[m[K,
+[19.889s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+[19.889s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.890s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.890s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.891s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.891s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.892s]    96 | }[01;35m[K;[m[K
+[19.892s]       |  [01;35m[K^[m[K
+[19.893s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5[m[K,
+[19.893s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+[19.893s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.894s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.894s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.895s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.896s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.896s]    96 | }[01;35m[K;[m[K
+[19.896s]       |  [01;35m[K^[m[K
+[19.912s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+[19.913s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.913s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.914s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.914s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.915s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.915s]   197 | }[01;35m[K;[m[K
+[19.916s]       |  [01;35m[K^[m[K
+[19.916s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+[19.917s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.917s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.918s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.919s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.919s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.920s]   197 | }[01;35m[K;[m[K
+[19.920s]       |  [01;35m[K^[m[K
+[19.920s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.921s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.921s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.922s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.922s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.923s]    52 | }[01;35m[K;[m[K
+[19.923s]       |  [01;35m[K^[m[K
+[19.923s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[19.924s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.925s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.925s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.926s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.926s]    52 | }[01;35m[K;[m[K
+[19.927s]       |  [01;35m[K^[m[K
+[19.927s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7[m[K,
+[19.928s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.928s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.928s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.929s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.929s]   145 | }[01;35m[K;[m[K //end namespace
+[19.930s]       |  [01;35m[K^[m[K
+[19.930s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7[m[K,
+[19.931s]                  from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.931s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.931s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.932s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.932s]   145 | }[01;35m[K;[m[K //end namespace
+[19.933s]       |  [01;35m[K^[m[K
+[19.972s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.972s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.973s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.974s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.974s]   250 | }[01;35m[K;[m[K
+[19.974s]       |  [01;35m[K^[m[K
+[19.975s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[19.975s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.976s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.976s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.977s]   250 | }[01;35m[K;[m[K
+[19.977s]       |  [01;35m[K^[m[K
+[19.978s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16[m[K,
+[19.978s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[19.979s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[19.979s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.980s]    17 | }[01;35m[K;[m[K
+[19.980s]       |  [01;35m[K^[m[K
+[19.981s] In file included from [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16[m[K,
+[19.981s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[19.982s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[19.982s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.983s]    17 | }[01;35m[K;[m[K
+[19.983s]       |  [01;35m[K^[m[K
+[20.644s] In file included from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[20.644s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3[m[K:
+[20.645s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.645s]   335 | }[01;35m[K;[m[K
+[20.646s]       |  [01;35m[K^[m[K
+[20.646s] In file included from [01m[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[20.647s]                  from [01m[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[20.648s] [01m[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.648s]   335 | }[01;35m[K;[m[K
+[20.649s]       |  [01;35m[K^[m[K
+[29.171s] [ 75%] [32m[1mLinking CXX executable transform[0m
+[30.242s] [ 75%] Built target transform
+[47.020s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[49.096s] [100%] Built target slam_gmapping
+[49.139s] Invoked command in '/home/datn/ydlidar_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy LD_LIBRARY_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/datn/ydlidar_ws/build/slam_gmapping -- -j4 -l4
+[49.286s] Invoking command in '/home/datn/ydlidar_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy LD_LIBRARY_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/datn/ydlidar_ws/build/slam_gmapping
+[49.324s] -- Install configuration: ""
+[49.326s] -- Execute custom install script
+[49.328s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[49.366s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/transform
+[49.405s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_4ros_launch.py
+[49.445s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_x3_launch.py
+[49.482s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_4ros_gmapping.launch.py
+[49.519s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/test_gmapping.launch.py
+[49.559s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/x3_slam.py
+[49.595s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/ydlidar_slam.py
+[49.634s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/params/slam_gmapping.yaml
+[49.671s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[49.708s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[49.746s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[49.747s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[49.785s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[49.786s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[49.825s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[49.863s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[49.901s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[49.938s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[49.976s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[50.014s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[50.054s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[50.091s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[50.129s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[50.174s] Invoked command in '/home/datn/ydlidar_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy LD_LIBRARY_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/datn/ydlidar_ws/build/slam_gmapping

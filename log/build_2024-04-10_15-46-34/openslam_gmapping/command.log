@@ -1,0 +1,6 @@
+Invoking command in '/home/ndp/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ndp/ydlidar_ws/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ndp/ydlidar_ws/install/openslam_gmapping
+Invoked command in '/home/ndp/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ndp/ydlidar_ws/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ndp/ydlidar_ws/install/openslam_gmapping
+Invoking command in '/home/ndp/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ndp/ydlidar_ws/build/openslam_gmapping -- -j8 -l8
+Invoked command in '/home/ndp/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ndp/ydlidar_ws/build/openslam_gmapping -- -j8 -l8
+Invoking command in '/home/ndp/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ndp/ydlidar_ws/build/openslam_gmapping
+Invoked command in '/home/ndp/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ndp/ydlidar_ws/build/openslam_gmapping

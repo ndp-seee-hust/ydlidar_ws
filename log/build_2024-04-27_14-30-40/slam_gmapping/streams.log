@@ -1,0 +1,32 @@
+[0.055s] Invoking command in '/home/datn/ydlidar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/home/datn/ydlidar_ws/install/ydlidar_ros2_driver:/home/datn/ydlidar_ws/install/slam_gmapping:/opt/ros/foxy /usr/bin/cmake --build /home/datn/ydlidar_ws/build/slam_gmapping -- -j4 -l4
+[0.403s] [100%] Built target transform
+[0.404s] [100%] Built target slam_gmapping
+[0.446s] Invoked command in '/home/datn/ydlidar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/home/datn/ydlidar_ws/install/ydlidar_ros2_driver:/home/datn/ydlidar_ws/install/slam_gmapping:/opt/ros/foxy /usr/bin/cmake --build /home/datn/ydlidar_ws/build/slam_gmapping -- -j4 -l4
+[0.604s] Invoking command in '/home/datn/ydlidar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/home/datn/ydlidar_ws/install/ydlidar_ros2_driver:/home/datn/ydlidar_ws/install/slam_gmapping:/opt/ros/foxy /usr/bin/cmake --install /home/datn/ydlidar_ws/build/slam_gmapping
+[0.642s] -- Install configuration: ""
+[0.644s] -- Execute custom install script
+[0.646s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[0.648s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/transform
+[0.651s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_4ros_launch.py
+[0.652s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_x3_launch.py
+[0.653s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_4ros_gmapping.launch.py
+[0.654s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/test_gmapping.launch.py
+[0.655s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/x3_slam.py
+[0.656s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/ydlidar_slam.py
+[0.657s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/params/slam_gmapping.yaml
+[0.659s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[0.661s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[0.662s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[0.664s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[0.665s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[0.666s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[0.668s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[0.669s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[0.670s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[0.672s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[0.673s] -- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[0.710s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[0.712s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[0.713s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[0.714s] -- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[0.722s] Invoked command in '/home/datn/ydlidar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/datn/ydlidar_ws/install/openslam_gmapping:/home/datn/ydlidar_ws/install/ydlidar_ros2_driver:/home/datn/ydlidar_ws/install/slam_gmapping:/opt/ros/foxy /usr/bin/cmake --install /home/datn/ydlidar_ws/build/slam_gmapping

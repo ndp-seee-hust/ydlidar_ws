@@ -1,0 +1,4 @@
+Invoking command in '/home/datn/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/datn/ydlidar_ws/build/openslam_gmapping -- -j4 -l4
+Invoked command in '/home/datn/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/datn/ydlidar_ws/build/openslam_gmapping -- -j4 -l4
+Invoking command in '/home/datn/ydlidar_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/datn/ydlidar_ws/build/openslam_gmapping
+Invoked command in '/home/datn/ydlidar_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/datn/ydlidar_ws/build/openslam_gmapping

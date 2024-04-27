@@ -1,0 +1,1 @@
+/home/datn/ydlidar_ws/slam_gmapping/launch/test_gmapping.launch.py

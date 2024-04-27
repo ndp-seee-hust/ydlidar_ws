@@ -1,0 +1,62 @@
+[0.011s] Invoking command in '/home/ndp/ydlidar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ndp/ydlidar_ws/install/openslam_gmapping:/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver:/home/ndp/ydlidar_ws/install/slam_gmapping:/home/ndp/ydlidar/install/ydlidar_ros2_driver:/home/ndp/ydlidar/install/slam_gmapping:/home/ndp/ydlidar/install/openslam_gmapping:/opt/ros/foxy /usr/bin/cmake --build /home/ndp/ydlidar_ws/build/slam_gmapping -- -j8 -l8
+[0.039s]  -fuse-ld=lld -Wl,--disable-new-dtags
+[0.039s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.263s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.276s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.458s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.553s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[0.565s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.611s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.613s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.998s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.003s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.026s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.084s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.143s] -- Found openslam_gmapping: 0.1.2 (/home/ndp/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[1.144s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.215s] -- Configured cppcheck include dirs: /home/ndp/ydlidar_ws/slam_gmapping/include
+[1.215s] -- Configured cppcheck exclude dirs and/or files: 
+[1.215s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.216s] -- Added test 'lint_cmake' to check CMake code style
+[1.216s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.217s] -- Added test 'uncrustify' to check C / C++ code style
+[1.217s] -- Configured uncrustify additional arguments: 
+[1.217s] -- Added test 'xmllint' to check XML markup files
+[1.220s] -- Configuring done
+[1.246s] -- Generating done
+[1.247s] -- Build files have been written to: /home/ndp/ydlidar_ws/build/slam_gmapping
+[1.295s] [100%] Built target transform
+[1.295s] [100%] Built target slam_gmapping
+[1.303s] Invoked command in '/home/ndp/ydlidar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/ndp/ydlidar_ws/install/openslam_gmapping:/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver:/home/ndp/ydlidar_ws/install/slam_gmapping:/home/ndp/ydlidar/install/ydlidar_ros2_driver:/home/ndp/ydlidar/install/slam_gmapping:/home/ndp/ydlidar/install/openslam_gmapping:/opt/ros/foxy /usr/bin/cmake --build /home/ndp/ydlidar_ws/build/slam_gmapping -- -j8 -l8
+[1.328s] Invoking command in '/home/ndp/ydlidar_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ndp/ydlidar_ws/install/openslam_gmapping:/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver:/home/ndp/ydlidar_ws/install/slam_gmapping:/home/ndp/ydlidar/install/ydlidar_ros2_driver:/home/ndp/ydlidar/install/slam_gmapping:/home/ndp/ydlidar/install/openslam_gmapping:/opt/ros/foxy /usr/bin/cmake --install /home/ndp/ydlidar_ws/build/slam_gmapping
+[1.335s] -- Install configuration: ""
+[1.335s] -- Execute custom install script
+[1.335s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[1.336s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/transform
+[1.336s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_4ros_launch.py
+[1.336s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_x3_launch.py
+[1.336s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_4ros_gmapping.launch.py
+[1.336s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/test_gmapping.launch.py
+[1.336s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/x3_slam.py
+[1.337s] -- Symlinking: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/params/slam_gmapping.yaml
+[1.345s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[1.345s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[1.346s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[1.346s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[1.346s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[1.346s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[1.346s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[1.346s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[1.346s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[1.346s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[1.347s] -- Symlinking: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[1.356s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[1.357s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[1.357s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[1.357s] -- Up-to-date symlink: /home/ndp/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[1.360s] Invoked command in '/home/ndp/ydlidar_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/ndp/ydlidar_ws/install/openslam_gmapping:/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver:/home/ndp/ydlidar_ws/install/slam_gmapping:/home/ndp/ydlidar/install/ydlidar_ros2_driver:/home/ndp/ydlidar/install/slam_gmapping:/home/ndp/ydlidar/install/openslam_gmapping:/opt/ros/foxy /usr/bin/cmake --install /home/ndp/ydlidar_ws/build/slam_gmapping

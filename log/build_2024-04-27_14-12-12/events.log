@@ -1,0 +1,1462 @@
+[0.000000] (-) TimerEvent: {}
+[0.000988] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.001347] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.002094] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/datn/ydlidar_ws/install/openslam_gmapping')])}
+[0.002749] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.033530] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.065815] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.066929] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/home/datn/ydlidar_ws/openslam_gmapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/datn/ydlidar_ws/install/openslam_gmapping'], 'cwd': '/home/datn/ydlidar_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.093543] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.094691] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/datn/ydlidar_ws/ydlidar_ros2_driver-master', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/datn/ydlidar_ws/install/ydlidar_ros2_driver'], 'cwd': '/home/datn/ydlidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.107465] (-) TimerEvent: {}
+[0.209789] (-) TimerEvent: {}
+[0.310702] (-) TimerEvent: {}
+[0.349337] (openslam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.366286] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.410895] (-) TimerEvent: {}
+[0.511824] (-) TimerEvent: {}
+[0.601175] (openslam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.612015] (-) TimerEvent: {}
+[0.617592] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.619859] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.635027] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.712280] (-) TimerEvent: {}
+[0.813209] (-) TimerEvent: {}
+[0.914149] (-) TimerEvent: {}
+[0.936045] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.940231] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.958432] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.961700] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.014349] (-) TimerEvent: {}
+[1.115337] (-) TimerEvent: {}
+[1.216550] (-) TimerEvent: {}
+[1.258243] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.290709] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.302997] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.304256] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.314257] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.316691] (-) TimerEvent: {}
+[1.331946] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.333328] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.343761] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.416946] (-) TimerEvent: {}
+[1.518055] (-) TimerEvent: {}
+[1.619115] (-) TimerEvent: {}
+[1.666494] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.670860] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.697417] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.701474] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.719251] (-) TimerEvent: {}
+[1.820183] (-) TimerEvent: {}
+[1.921436] (-) TimerEvent: {}
+[2.022454] (-) TimerEvent: {}
+[2.039487] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.061377] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.084442] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.086470] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.104080] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.106056] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.110232] (openslam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.122578] (-) TimerEvent: {}
+[2.128593] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.222796] (-) TimerEvent: {}
+[2.246770] (openslam_gmapping) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.247514] (openslam_gmapping) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.269148] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.270081] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.323092] (-) TimerEvent: {}
+[2.424344] (-) TimerEvent: {}
+[2.525085] (-) TimerEvent: {}
+[2.625951] (-) TimerEvent: {}
+[2.726641] (-) TimerEvent: {}
+[2.827324] (-) TimerEvent: {}
+[2.928084] (-) TimerEvent: {}
+[3.028749] (-) TimerEvent: {}
+[3.129527] (-) TimerEvent: {}
+[3.161317] (openslam_gmapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.187517] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.229653] (-) TimerEvent: {}
+[3.330340] (-) TimerEvent: {}
+[3.402943] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.430539] (-) TimerEvent: {}
+[3.531244] (-) TimerEvent: {}
+[3.631983] (-) TimerEvent: {}
+[3.732802] (-) TimerEvent: {}
+[3.765529] (openslam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.805460] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.832986] (-) TimerEvent: {}
+[3.836913] (openslam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[3.845877] (openslam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /home/datn/ydlidar_ws/build/openslam_gmapping\n'}
+[3.862462] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[3.864609] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[3.864874] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.868098] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/datn/ydlidar_ws/build/openslam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/datn/ydlidar_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.933321] (-) TimerEvent: {}
+[4.034281] (-) TimerEvent: {}
+[4.035908] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target utils\x1b[0m\n'}
+[4.041162] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sensor_base\x1b[0m\n'}
+[4.085790] (openslam_gmapping) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o\x1b[0m\n'}
+[4.093506] (openslam_gmapping) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o\x1b[0m\n'}
+[4.098129] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o\x1b[0m\n'}
+[4.123635] (openslam_gmapping) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o\x1b[0m\n'}
+[4.134554] (-) TimerEvent: {}
+[4.235558] (-) TimerEvent: {}
+[4.336996] (-) TimerEvent: {}
+[4.438348] (-) TimerEvent: {}
+[4.539814] (-) TimerEvent: {}
+[4.641589] (-) TimerEvent: {}
+[4.742635] (-) TimerEvent: {}
+[4.843615] (-) TimerEvent: {}
+[4.945415] (-) TimerEvent: {}
+[5.047075] (-) TimerEvent: {}
+[5.148096] (-) TimerEvent: {}
+[5.171817] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.248351] (-) TimerEvent: {}
+[5.349391] (-) TimerEvent: {}
+[5.450293] (-) TimerEvent: {}
+[5.537303] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.550565] (-) TimerEvent: {}
+[5.651564] (-) TimerEvent: {}
+[5.687286] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX static library libsensor_base.a\x1b[0m\n'}
+[5.751787] (-) TimerEvent: {}
+[5.840551] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] Built target sensor_base\n'}
+[5.852053] (-) TimerEvent: {}
+[5.905212] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sensor_range\x1b[0m\n'}
+[5.950893] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sensor_odometry\x1b[0m\n'}
+[5.952204] (-) TimerEvent: {}
+[6.021666] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o\x1b[0m\n'}
+[6.048240] (openslam_gmapping) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o\x1b[0m\n'}
+[6.052559] (-) TimerEvent: {}
+[6.074583] (openslam_gmapping) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o\x1b[0m\n'}
+[6.081718] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libutils.a\x1b[0m\n'}
+[6.152847] (-) TimerEvent: {}
+[6.253836] (-) TimerEvent: {}
+[6.293491] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.354118] (-) TimerEvent: {}
+[6.381459] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target utils\n'}
+[6.454377] (-) TimerEvent: {}
+[6.490816] (openslam_gmapping) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o\x1b[0m\n'}
+[6.554613] (-) TimerEvent: {}
+[6.655637] (-) TimerEvent: {}
+[6.697157] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.707279] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.714109] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.755896] (-) TimerEvent: {}
+[6.856959] (-) TimerEvent: {}
+[6.958717] (-) TimerEvent: {}
+[7.060520] (-) TimerEvent: {}
+[7.163083] (-) TimerEvent: {}
+[7.264664] (-) TimerEvent: {}
+[7.366283] (-) TimerEvent: {}
+[7.470221] (-) TimerEvent: {}
+[7.476798] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.478544] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.570489] (-) TimerEvent: {}
+[7.672078] (-) TimerEvent: {}
+[7.773734] (-) TimerEvent: {}
+[7.875542] (-) TimerEvent: {}
+[7.924997] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[7.928337] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.975857] (-) TimerEvent: {}
+[8.077043] (-) TimerEvent: {}
+[8.178183] (-) TimerEvent: {}
+[8.262636] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[8.265424] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.278614] (-) TimerEvent: {}
+[8.349506] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libsensor_odometry.a\x1b[0m\n'}
+[8.378819] (-) TimerEvent: {}
+[8.479831] (-) TimerEvent: {}
+[8.540888] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] Built target sensor_odometry\n'}
+[8.580044] (-) TimerEvent: {}
+[8.674180] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.678948] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.680211] (-) TimerEvent: {}
+[8.781727] (-) TimerEvent: {}
+[8.883195] (-) TimerEvent: {}
+[8.984568] (-) TimerEvent: {}
+[9.085509] (-) TimerEvent: {}
+[9.095673] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libsensor_range.a\x1b[0m\n'}
+[9.185709] (-) TimerEvent: {}
+[9.225141] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_range\n'}
+[9.267681] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scanmatcher\x1b[0m\n'}
+[9.285898] (-) TimerEvent: {}
+[9.326846] (openslam_gmapping) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o\x1b[0m\n'}
+[9.330769] (openslam_gmapping) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o\x1b[0m\n'}
+[9.342001] (openslam_gmapping) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o\x1b[0m\n'}
+[9.358406] (openslam_gmapping) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o\x1b[0m\n'}
+[9.386179] (-) TimerEvent: {}
+[9.487249] (-) TimerEvent: {}
+[9.512975] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[9.587468] (-) TimerEvent: {}
+[9.688427] (-) TimerEvent: {}
+[9.789432] (-) TimerEvent: {}
+[9.890427] (-) TimerEvent: {}
+[9.991507] (-) TimerEvent: {}
+[10.092622] (-) TimerEvent: {}
+[10.194405] (-) TimerEvent: {}
+[10.295417] (-) TimerEvent: {}
+[10.396541] (-) TimerEvent: {}
+[10.469528] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[10.496824] (-) TimerEvent: {}
+[10.598069] (-) TimerEvent: {}
+[10.699141] (-) TimerEvent: {}
+[10.800114] (-) TimerEvent: {}
+[10.901206] (-) TimerEvent: {}
+[10.909256] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[11.001468] (-) TimerEvent: {}
+[11.031554] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[11.101703] (-) TimerEvent: {}
+[11.202638] (-) TimerEvent: {}
+[11.303549] (-) TimerEvent: {}
+[11.404361] (-) TimerEvent: {}
+[11.505762] (-) TimerEvent: {}
+[11.607053] (-) TimerEvent: {}
+[11.618493] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.640095] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.642459] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src\n'}
+[11.643270] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.662646] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.663453] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.667648] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.674739] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.679515] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[11.699357] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.700151] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.704219] (ydlidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.707247] (-) TimerEvent: {}
+[11.736358] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.807439] (-) TimerEvent: {}
+[11.812775] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[11.821716] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/datn/ydlidar_ws/build/ydlidar_ros2_driver\n'}
+[11.862974] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[11.865727] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[11.867210] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/datn/ydlidar_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/datn/ydlidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.907732] (-) TimerEvent: {}
+[12.009496] (-) TimerEvent: {}
+[12.079948] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_client\x1b[0m\n'}
+[12.083304] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[12.109752] (-) TimerEvent: {}
+[12.210658] (-) TimerEvent: {}
+[12.311521] (-) TimerEvent: {}
+[12.379637] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[12.382279] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[12.411806] (-) TimerEvent: {}
+[12.512919] (-) TimerEvent: {}
+[12.613943] (-) TimerEvent: {}
+[12.715567] (-) TimerEvent: {}
+[12.817115] (-) TimerEvent: {}
+[12.918467] (-) TimerEvent: {}
+[13.020069] (-) TimerEvent: {}
+[13.121472] (-) TimerEvent: {}
+[13.223312] (-) TimerEvent: {}
+[13.325410] (-) TimerEvent: {}
+[13.426994] (-) TimerEvent: {}
+[13.528596] (-) TimerEvent: {}
+[13.630398] (-) TimerEvent: {}
+[13.732032] (-) TimerEvent: {}
+[13.857602] (-) TimerEvent: {}
+[13.959068] (-) TimerEvent: {}
+[14.060721] (-) TimerEvent: {}
+[14.162391] (-) TimerEvent: {}
+[14.263775] (-) TimerEvent: {}
+[14.365115] (-) TimerEvent: {}
+[14.466766] (-) TimerEvent: {}
+[14.568911] (-) TimerEvent: {}
+[14.670801] (-) TimerEvent: {}
+[14.772425] (-) TimerEvent: {}
+[14.874197] (-) TimerEvent: {}
+[14.976116] (-) TimerEvent: {}
+[15.077721] (-) TimerEvent: {}
+[15.179259] (-) TimerEvent: {}
+[15.280761] (-) TimerEvent: {}
+[15.382404] (-) TimerEvent: {}
+[15.484205] (-) TimerEvent: {}
+[15.585997] (-) TimerEvent: {}
+[15.687838] (-) TimerEvent: {}
+[15.789491] (-) TimerEvent: {}
+[15.891032] (-) TimerEvent: {}
+[15.992806] (-) TimerEvent: {}
+[16.094638] (-) TimerEvent: {}
+[16.196281] (-) TimerEvent: {}
+[16.297709] (-) TimerEvent: {}
+[16.399553] (-) TimerEvent: {}
+[16.500987] (-) TimerEvent: {}
+[16.602515] (-) TimerEvent: {}
+[16.703430] (-) TimerEvent: {}
+[16.804970] (-) TimerEvent: {}
+[16.906745] (-) TimerEvent: {}
+[16.948159] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX static library libscanmatcher.a\x1b[0m\n'}
+[17.006970] (-) TimerEvent: {}
+[17.102222] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[17.107191] (-) TimerEvent: {}
+[17.151385] (openslam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gridfastslam\x1b[0m\n'}
+[17.207423] (-) TimerEvent: {}
+[17.222904] (openslam_gmapping) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o\x1b[0m\n'}
+[17.257532] (openslam_gmapping) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o\x1b[0m\n'}
+[17.277853] (openslam_gmapping) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o\x1b[0m\n'}
+[17.307649] (-) TimerEvent: {}
+[17.322344] (openslam_gmapping) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o\x1b[0m\n'}
+[17.407894] (-) TimerEvent: {}
+[17.508906] (-) TimerEvent: {}
+[17.610246] (-) TimerEvent: {}
+[17.714917] (-) TimerEvent: {}
+[17.823743] (-) TimerEvent: {}
+[17.925446] (-) TimerEvent: {}
+[18.040904] (-) TimerEvent: {}
+[18.142636] (-) TimerEvent: {}
+[18.244467] (-) TimerEvent: {}
+[18.346226] (-) TimerEvent: {}
+[18.447979] (-) TimerEvent: {}
+[18.549977] (-) TimerEvent: {}
+[18.657328] (-) TimerEvent: {}
+[18.765193] (-) TimerEvent: {}
+[18.881494] (-) TimerEvent: {}
+[18.983220] (-) TimerEvent: {}
+[19.085145] (-) TimerEvent: {}
+[19.187528] (-) TimerEvent: {}
+[19.289710] (-) TimerEvent: {}
+[19.391464] (-) TimerEvent: {}
+[19.493031] (-) TimerEvent: {}
+[19.594696] (-) TimerEvent: {}
+[19.696502] (-) TimerEvent: {}
+[19.805522] (-) TimerEvent: {}
+[19.907796] (-) TimerEvent: {}
+[20.009827] (-) TimerEvent: {}
+[20.112164] (-) TimerEvent: {}
+[20.214669] (-) TimerEvent: {}
+[20.316759] (-) TimerEvent: {}
+[20.418563] (-) TimerEvent: {}
+[20.520787] (-) TimerEvent: {}
+[20.622714] (-) TimerEvent: {}
+[20.724563] (-) TimerEvent: {}
+[20.826615] (-) TimerEvent: {}
+[20.928245] (-) TimerEvent: {}
+[21.030494] (-) TimerEvent: {}
+[21.104084] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[21.105738] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:163:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[21.107133] (ydlidar_ros2_driver) StderrLine: {'line': b'  163 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[21.108458] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.110006] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:164:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[21.111430] (ydlidar_ros2_driver) StderrLine: {'line': b'  164 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[21.112677] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[21.114478] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:165:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[21.116072] (ydlidar_ros2_driver) StderrLine: {'line': b'  165 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[21.117644] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[21.141540] (-) TimerEvent: {}
+[21.161785] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[21.163144] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:173:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[21.164403] (ydlidar_ros2_driver) StderrLine: {'line': b'  173 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[21.166240] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.167648] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:174:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[21.168875] (ydlidar_ros2_driver) StderrLine: {'line': b'  174 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[21.170164] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[21.171505] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/ydlidar_ros2_driver-master/src/ydlidar_ros2_driver_node.cpp:175:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[21.172752] (ydlidar_ros2_driver) StderrLine: {'line': b'  175 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[21.173963] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[21.241753] (-) TimerEvent: {}
+[21.343430] (-) TimerEvent: {}
+[21.444991] (-) TimerEvent: {}
+[21.546788] (-) TimerEvent: {}
+[21.648426] (-) TimerEvent: {}
+[21.750104] (-) TimerEvent: {}
+[21.851848] (-) TimerEvent: {}
+[21.953481] (-) TimerEvent: {}
+[22.055186] (-) TimerEvent: {}
+[22.156791] (-) TimerEvent: {}
+[22.258478] (-) TimerEvent: {}
+[22.360140] (-) TimerEvent: {}
+[22.461857] (-) TimerEvent: {}
+[22.563695] (-) TimerEvent: {}
+[22.665320] (-) TimerEvent: {}
+[22.766923] (-) TimerEvent: {}
+[22.867932] (-) TimerEvent: {}
+[22.969977] (-) TimerEvent: {}
+[23.071610] (-) TimerEvent: {}
+[23.174124] (-) TimerEvent: {}
+[23.276147] (-) TimerEvent: {}
+[23.378377] (-) TimerEvent: {}
+[23.480127] (-) TimerEvent: {}
+[23.581885] (-) TimerEvent: {}
+[23.684009] (-) TimerEvent: {}
+[23.786314] (-) TimerEvent: {}
+[23.888241] (-) TimerEvent: {}
+[24.004296] (-) TimerEvent: {}
+[24.106073] (-) TimerEvent: {}
+[24.207830] (-) TimerEvent: {}
+[24.309472] (-) TimerEvent: {}
+[24.411150] (-) TimerEvent: {}
+[24.513774] (-) TimerEvent: {}
+[24.615684] (-) TimerEvent: {}
+[24.717991] (-) TimerEvent: {}
+[24.820238] (-) TimerEvent: {}
+[24.922141] (-) TimerEvent: {}
+[25.024579] (-) TimerEvent: {}
+[25.126276] (-) TimerEvent: {}
+[25.227831] (-) TimerEvent: {}
+[25.329373] (-) TimerEvent: {}
+[25.431027] (-) TimerEvent: {}
+[25.532475] (-) TimerEvent: {}
+[25.633957] (-) TimerEvent: {}
+[25.735479] (-) TimerEvent: {}
+[25.836961] (-) TimerEvent: {}
+[25.938689] (-) TimerEvent: {}
+[26.040233] (-) TimerEvent: {}
+[26.141666] (-) TimerEvent: {}
+[26.243035] (-) TimerEvent: {}
+[26.344597] (-) TimerEvent: {}
+[26.445977] (-) TimerEvent: {}
+[26.547399] (-) TimerEvent: {}
+[26.648860] (-) TimerEvent: {}
+[26.750463] (-) TimerEvent: {}
+[26.851973] (-) TimerEvent: {}
+[26.954548] (-) TimerEvent: {}
+[27.056009] (-) TimerEvent: {}
+[27.157604] (-) TimerEvent: {}
+[27.259692] (-) TimerEvent: {}
+[27.361198] (-) TimerEvent: {}
+[27.462659] (-) TimerEvent: {}
+[27.564639] (-) TimerEvent: {}
+[27.666942] (-) TimerEvent: {}
+[27.768723] (-) TimerEvent: {}
+[27.870488] (-) TimerEvent: {}
+[27.971925] (-) TimerEvent: {}
+[28.073468] (-) TimerEvent: {}
+[28.175494] (-) TimerEvent: {}
+[28.277464] (-) TimerEvent: {}
+[28.379349] (-) TimerEvent: {}
+[28.480860] (-) TimerEvent: {}
+[28.582376] (-) TimerEvent: {}
+[28.615193] (openslam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libgridfastslam.a\x1b[0m\n'}
+[28.682687] (-) TimerEvent: {}
+[28.780602] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[28.782949] (-) TimerEvent: {}
+[28.831065] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[28.883256] (-) TimerEvent: {}
+[28.962699] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[28.983611] (-) TimerEvent: {}
+[29.010097] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/datn/ydlidar_ws/build/openslam_gmapping'], 'cwd': '/home/datn/ydlidar_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[29.059648] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.061906] (openslam_gmapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.064137] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[29.083833] (-) TimerEvent: {}
+[29.107320] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[29.149549] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[29.184093] (-) TimerEvent: {}
+[29.191924] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[29.193525] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[29.235584] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[29.237504] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[29.239550] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[29.281175] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[29.284386] (-) TimerEvent: {}
+[29.324003] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/lib/libutils.a\n'}
+[29.367003] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[29.368944] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[29.371029] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[29.372973] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[29.378711] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[29.384612] (-) TimerEvent: {}
+[29.420574] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[29.461402] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[29.484851] (-) TimerEvent: {}
+[29.504165] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[29.554160] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[29.585139] (-) TimerEvent: {}
+[29.606425] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[29.648046] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[29.685403] (-) TimerEvent: {}
+[29.689614] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[29.730788] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[29.772533] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[29.785712] (-) TimerEvent: {}
+[29.819147] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[29.859921] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[29.885967] (-) TimerEvent: {}
+[29.900092] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[29.947055] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[29.986317] (-) TimerEvent: {}
+[30.003195] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[30.060027] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[30.086666] (-) TimerEvent: {}
+[30.117166] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[30.168218] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[30.186873] (-) TimerEvent: {}
+[30.210901] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[30.253320] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[30.287098] (-) TimerEvent: {}
+[30.294697] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[30.336180] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[30.377529] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[30.387372] (-) TimerEvent: {}
+[30.419923] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[30.460863] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[30.487619] (-) TimerEvent: {}
+[30.503059] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[30.545024] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[30.586921] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[30.587722] (-) TimerEvent: {}
+[30.588723] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[30.630926] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[30.632308] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[30.674365] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[30.687982] (-) TimerEvent: {}
+[30.716746] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[30.758411] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[30.788234] (-) TimerEvent: {}
+[30.800769] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[30.842188] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[30.884447] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[30.888480] (-) TimerEvent: {}
+[30.926327] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.968361] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.988694] (-) TimerEvent: {}
+[31.010537] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[31.051499] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[31.088973] (-) TimerEvent: {}
+[31.093742] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[31.144522] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[31.189473] (-) TimerEvent: {}
+[31.293019] (-) TimerEvent: {}
+[31.394311] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[31.402293] (-) TimerEvent: {}
+[31.403246] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[31.440050] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[31.441501] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/home/datn/ydlidar_ws/slam_gmapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/datn/ydlidar_ws/install/slam_gmapping'], 'cwd': '/home/datn/ydlidar_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy')]), 'shell': False}
+[31.502573] (-) TimerEvent: {}
+[31.604017] (-) TimerEvent: {}
+[31.705703] (-) TimerEvent: {}
+[31.739961] (slam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[31.805894] (-) TimerEvent: {}
+[31.906918] (-) TimerEvent: {}
+[32.008804] (-) TimerEvent: {}
+[32.011927] (slam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[32.033888] (slam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[32.109041] (-) TimerEvent: {}
+[32.210847] (-) TimerEvent: {}
+[32.312345] (-) TimerEvent: {}
+[32.368020] (slam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[32.371992] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.412646] (-) TimerEvent: {}
+[32.515055] (-) TimerEvent: {}
+[32.618198] (-) TimerEvent: {}
+[32.646575] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[32.718544] (-) TimerEvent: {}
+[32.756233] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.810464] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.813966] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.818807] (-) TimerEvent: {}
+[32.833432] (slam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[32.919103] (-) TimerEvent: {}
+[33.021501] (-) TimerEvent: {}
+[33.124077] (-) TimerEvent: {}
+[33.226389] (-) TimerEvent: {}
+[33.305643] (slam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[33.312154] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[33.326726] (-) TimerEvent: {}
+[33.428564] (-) TimerEvent: {}
+[33.530285] (-) TimerEvent: {}
+[33.631823] (-) TimerEvent: {}
+[33.727129] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[33.732069] (-) TimerEvent: {}
+[33.786653] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.789351] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.793775] (slam_gmapping) StderrLine: {'line': b' -fuse-ld=lld -Wl,--disable-new-dtags\n'}
+[33.818727] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[33.832350] (-) TimerEvent: {}
+[33.934037] (-) TimerEvent: {}
+[33.982595] (slam_gmapping) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[33.983862] (slam_gmapping) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[34.016726] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_node\n'}
+[34.034191] (-) TimerEvent: {}
+[34.135096] (-) TimerEvent: {}
+[34.235887] (-) TimerEvent: {}
+[34.336712] (-) TimerEvent: {}
+[34.437607] (-) TimerEvent: {}
+[34.538310] (-) TimerEvent: {}
+[34.639023] (-) TimerEvent: {}
+[34.739702] (-) TimerEvent: {}
+[34.840479] (-) TimerEvent: {}
+[34.941311] (-) TimerEvent: {}
+[35.016650] (slam_gmapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[35.041460] (-) TimerEvent: {}
+[35.142251] (-) TimerEvent: {}
+[35.243038] (-) TimerEvent: {}
+[35.259233] (slam_gmapping) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[35.343221] (-) TimerEvent: {}
+[35.444041] (-) TimerEvent: {}
+[35.522075] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.544210] (-) TimerEvent: {}
+[35.584255] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[35.644417] (-) TimerEvent: {}
+[35.745259] (-) TimerEvent: {}
+[35.846073] (-) TimerEvent: {}
+[35.946843] (-) TimerEvent: {}
+[36.047635] (-) TimerEvent: {}
+[36.148485] (-) TimerEvent: {}
+[36.193508] (slam_gmapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[36.248670] (-) TimerEvent: {}
+[36.349496] (-) TimerEvent: {}
+[36.450266] (-) TimerEvent: {}
+[36.481138] (slam_gmapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[36.550444] (-) TimerEvent: {}
+[36.651329] (-) TimerEvent: {}
+[36.752148] (-) TimerEvent: {}
+[36.852943] (-) TimerEvent: {}
+[36.953743] (-) TimerEvent: {}
+[37.054532] (-) TimerEvent: {}
+[37.155346] (-) TimerEvent: {}
+[37.156571] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[37.255538] (-) TimerEvent: {}
+[37.356341] (-) TimerEvent: {}
+[37.400177] (slam_gmapping) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[37.456725] (-) TimerEvent: {}
+[37.558032] (-) TimerEvent: {}
+[37.658859] (-) TimerEvent: {}
+[37.759693] (-) TimerEvent: {}
+[37.860490] (-) TimerEvent: {}
+[37.923593] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[37.960703] (-) TimerEvent: {}
+[37.989053] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[38.060881] (-) TimerEvent: {}
+[38.161673] (-) TimerEvent: {}
+[38.262398] (-) TimerEvent: {}
+[38.347178] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[38.353782] (slam_gmapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[38.357834] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[38.362573] (-) TimerEvent: {}
+[38.463508] (-) TimerEvent: {}
+[38.565346] (-) TimerEvent: {}
+[38.666275] (-) TimerEvent: {}
+[38.740987] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[38.742555] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[38.766439] (-) TimerEvent: {}
+[38.838261] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[38.866639] (-) TimerEvent: {}
+[38.967581] (-) TimerEvent: {}
+[39.068971] (-) TimerEvent: {}
+[39.139684] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[39.140801] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[39.169151] (-) TimerEvent: {}
+[39.270240] (-) TimerEvent: {}
+[39.371908] (-) TimerEvent: {}
+[39.470489] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[39.471485] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[39.472260] (-) TimerEvent: {}
+[39.573581] (-) TimerEvent: {}
+[39.674853] (-) TimerEvent: {}
+[39.775756] (-) TimerEvent: {}
+[39.824076] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[39.827981] (slam_gmapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[39.875940] (-) TimerEvent: {}
+[39.976846] (-) TimerEvent: {}
+[40.077976] (-) TimerEvent: {}
+[40.133637] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[40.176179] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[40.178780] (-) TimerEvent: {}
+[40.283487] (-) TimerEvent: {}
+[40.297345] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[40.298502] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/datn/ydlidar_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/datn/ydlidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[40.339695] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.341437] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[40.343356] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[40.378715] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[40.383675] (-) TimerEvent: {}
+[40.416801] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/4ros_ydlidar_launch.py\n'}
+[40.453042] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch.cpython-36.pyc\n'}
+[40.483887] (-) TimerEvent: {}
+[40.489493] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch_view.cpython-36.pyc\n'}
+[40.525776] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/test_gmapping_launch.py\n'}
+[40.560603] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/view_ydlidar_launch.py\n'}
+[40.584135] (-) TimerEvent: {}
+[40.596018] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/x3.py\n'}
+[40.631328] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/x3_view.py\n'}
+[40.667623] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[40.684334] (-) TimerEvent: {}
+[40.702955] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_4ros_view_launch.py\n'}
+[40.738405] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[40.774289] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_raw_launch.py\n'}
+[40.784515] (-) TimerEvent: {}
+[40.810931] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[40.846607] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_4ros.yaml\n'}
+[40.881726] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar_x3.yaml\n'}
+[40.884697] (-) TimerEvent: {}
+[40.918091] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[40.955018] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/test_gmapping.rviz\n'}
+[40.984918] (-) TimerEvent: {}
+[40.990575] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[41.027167] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[41.063216] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[41.085085] (-) TimerEvent: {}
+[41.100022] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[41.101022] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[41.137727] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[41.138724] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[41.174336] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[41.185333] (-) TimerEvent: {}
+[41.210701] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[41.246617] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[41.282779] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[41.285482] (-) TimerEvent: {}
+[41.318532] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[41.354693] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[41.385655] (-) TimerEvent: {}
+[41.391155] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[41.427113] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[41.463674] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[41.485813] (-) TimerEvent: {}
+[41.504570] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[41.586071] (-) TimerEvent: {}
+[41.687950] (-) TimerEvent: {}
+[41.692400] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[41.788115] (-) TimerEvent: {}
+[41.888748] (-) TimerEvent: {}
+[41.989487] (-) TimerEvent: {}
+[42.008996] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[42.063464] (slam_gmapping) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[42.086945] (slam_gmapping) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[42.089635] (-) TimerEvent: {}
+[42.190315] (-) TimerEvent: {}
+[42.207353] (slam_gmapping) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[42.290470] (-) TimerEvent: {}
+[42.391138] (-) TimerEvent: {}
+[42.491847] (-) TimerEvent: {}
+[42.510962] (slam_gmapping) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[42.592012] (-) TimerEvent: {}
+[42.692690] (-) TimerEvent: {}
+[42.793386] (-) TimerEvent: {}
+[42.800458] (slam_gmapping) StdoutLine: {'line': b'-- Found openslam_gmapping: 0.1.2 (/home/datn/ydlidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)\n'}
+[42.822947] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[42.893519] (-) TimerEvent: {}
+[42.994191] (-) TimerEvent: {}
+[43.094854] (-) TimerEvent: {}
+[43.195538] (-) TimerEvent: {}
+[43.244106] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[43.245251] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/datn/ydlidar_ws/slam_gmapping/include\n'}
+[43.245828] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[43.248769] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[43.253162] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[43.256387] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[43.268114] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[43.268770] (slam_gmapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[43.271516] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[43.295687] (-) TimerEvent: {}
+[43.303714] (slam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[43.383936] (slam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[43.391394] (slam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /home/datn/ydlidar_ws/build/slam_gmapping\n'}
+[43.395911] (-) TimerEvent: {}
+[43.427949] (slam_gmapping) CommandEnded: {'returncode': 0}
+[43.429988] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[43.431135] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/datn/ydlidar_ws/build/slam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/datn/ydlidar_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy')]), 'shell': False}
+[43.496286] (-) TimerEvent: {}
+[43.597387] (-) TimerEvent: {}
+[43.627819] (slam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target transform\x1b[0m\n'}
+[43.628508] (slam_gmapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target slam_gmapping\x1b[0m\n'}
+[43.697565] (-) TimerEvent: {}
+[43.798270] (-) TimerEvent: {}
+[43.898953] (-) TimerEvent: {}
+[43.950482] (slam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o\x1b[0m\n'}
+[43.952149] (slam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o\x1b[0m\n'}
+[43.999161] (-) TimerEvent: {}
+[44.099931] (-) TimerEvent: {}
+[44.200657] (-) TimerEvent: {}
+[44.301452] (-) TimerEvent: {}
+[44.402220] (-) TimerEvent: {}
+[44.502943] (-) TimerEvent: {}
+[44.603737] (-) TimerEvent: {}
+[44.704506] (-) TimerEvent: {}
+[44.805444] (-) TimerEvent: {}
+[44.906231] (-) TimerEvent: {}
+[45.007088] (-) TimerEvent: {}
+[45.107858] (-) TimerEvent: {}
+[45.208641] (-) TimerEvent: {}
+[45.309418] (-) TimerEvent: {}
+[45.410316] (-) TimerEvent: {}
+[45.511260] (-) TimerEvent: {}
+[45.612060] (-) TimerEvent: {}
+[45.712866] (-) TimerEvent: {}
+[45.813632] (-) TimerEvent: {}
+[45.914608] (-) TimerEvent: {}
+[46.015441] (-) TimerEvent: {}
+[46.116261] (-) TimerEvent: {}
+[46.217064] (-) TimerEvent: {}
+[46.317872] (-) TimerEvent: {}
+[46.418672] (-) TimerEvent: {}
+[46.519399] (-) TimerEvent: {}
+[46.620229] (-) TimerEvent: {}
+[46.721107] (-) TimerEvent: {}
+[46.822174] (-) TimerEvent: {}
+[46.922951] (-) TimerEvent: {}
+[47.023844] (-) TimerEvent: {}
+[47.124669] (-) TimerEvent: {}
+[47.225416] (-) TimerEvent: {}
+[47.326207] (-) TimerEvent: {}
+[47.426952] (-) TimerEvent: {}
+[47.527724] (-) TimerEvent: {}
+[47.628678] (-) TimerEvent: {}
+[47.729446] (-) TimerEvent: {}
+[47.830231] (-) TimerEvent: {}
+[47.931036] (-) TimerEvent: {}
+[48.031819] (-) TimerEvent: {}
+[48.132665] (-) TimerEvent: {}
+[48.233419] (-) TimerEvent: {}
+[48.334163] (-) TimerEvent: {}
+[48.434957] (-) TimerEvent: {}
+[48.535745] (-) TimerEvent: {}
+[48.636588] (-) TimerEvent: {}
+[48.737416] (-) TimerEvent: {}
+[48.838221] (-) TimerEvent: {}
+[48.939040] (-) TimerEvent: {}
+[49.040384] (-) TimerEvent: {}
+[49.141189] (-) TimerEvent: {}
+[49.241999] (-) TimerEvent: {}
+[49.342756] (-) TimerEvent: {}
+[49.443589] (-) TimerEvent: {}
+[49.544406] (-) TimerEvent: {}
+[49.645250] (-) TimerEvent: {}
+[49.746238] (-) TimerEvent: {}
+[49.846984] (-) TimerEvent: {}
+[49.947916] (-) TimerEvent: {}
+[50.048716] (-) TimerEvent: {}
+[50.149499] (-) TimerEvent: {}
+[50.250231] (-) TimerEvent: {}
+[50.350977] (-) TimerEvent: {}
+[50.451856] (-) TimerEvent: {}
+[50.552626] (-) TimerEvent: {}
+[50.653446] (-) TimerEvent: {}
+[50.754255] (-) TimerEvent: {}
+[50.855009] (-) TimerEvent: {}
+[50.955848] (-) TimerEvent: {}
+[51.056581] (-) TimerEvent: {}
+[51.157408] (-) TimerEvent: {}
+[51.172635] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9\x1b[m\x1b[K,\n'}
+[51.173617] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.174221] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.174734] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[51.175331] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K-Wmisleading-indentation\x1b[m\x1b[K]\n'}
+[51.175851] (slam_gmapping) StderrLine: {'line': b'  140 |  \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count>0)\n'}
+[51.176360] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[51.176800] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9\x1b[m\x1b[K,\n'}
+[51.177232] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.177800] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.178296] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[51.178751] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K-Wmisleading-indentation\x1b[m\x1b[K]\n'}
+[51.179208] (slam_gmapping) StderrLine: {'line': b'  140 |  \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count>0)\n'}
+[51.179666] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[51.180072] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[51.180482] (slam_gmapping) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kout\x1b[m\x1b[K++;\n'}
+[51.180954] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[51.181541] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[51.182061] (slam_gmapping) StderrLine: {'line': b'  142 |   \x1b[01;36m\x1b[Kout\x1b[m\x1b[K++;\n'}
+[51.182533] (slam_gmapping) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[51.197978] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10\x1b[m\x1b[K,\n'}
+[51.198835] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.199342] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.200270] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/point.h:\x1b[m\x1b[K At global scope:\n'}
+[51.200766] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/point.h:205:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.201787] (slam_gmapping) StderrLine: {'line': b'  205 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K //end namespace\n'}
+[51.202779] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.203283] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10\x1b[m\x1b[K,\n'}
+[51.203736] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.204206] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.204705] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/point.h:\x1b[m\x1b[K At global scope:\n'}
+[51.205182] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/point.h:205:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.205838] (slam_gmapping) StderrLine: {'line': b'  205 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K //end namespace\n'}
+[51.206297] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.206732] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4\x1b[m\x1b[K,\n'}
+[51.207194] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6\x1b[m\x1b[K,\n'}
+[51.207621] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.208112] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.208588] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.209033] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.209639] (slam_gmapping) StderrLine: {'line': b'   21 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K //end namespace\n'}
+[51.210104] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.210598] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4\x1b[m\x1b[K,\n'}
+[51.210998] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6\x1b[m\x1b[K,\n'}
+[51.211399] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.211838] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.212301] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.212770] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.213321] (slam_gmapping) StderrLine: {'line': b'   21 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K //end namespace\n'}
+[51.213906] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.214452] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6\x1b[m\x1b[K,\n'}
+[51.214920] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.215427] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.216286] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.216743] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.217701] (slam_gmapping) StderrLine: {'line': b'   23 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K //end namespace\n'}
+[51.218297] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.218763] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6\x1b[m\x1b[K,\n'}
+[51.220121] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.220707] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.221205] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.221811] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.222344] (slam_gmapping) StderrLine: {'line': b'   23 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K //end namespace\n'}
+[51.222785] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.223228] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7\x1b[m\x1b[K,\n'}
+[51.223671] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.224124] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.224630] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.225114] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.225734] (slam_gmapping) StderrLine: {'line': b'   17 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.226217] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.226670] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7\x1b[m\x1b[K,\n'}
+[51.227124] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.227608] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.228081] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.228583] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.229045] (slam_gmapping) StderrLine: {'line': b'   17 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.229560] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.230063] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8\x1b[m\x1b[K,\n'}
+[51.230536] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.230968] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.231400] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.231829] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.232261] (slam_gmapping) StderrLine: {'line': b'   33 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.232694] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.233231] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8\x1b[m\x1b[K,\n'}
+[51.233853] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.234366] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.235301] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.235811] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.236275] (slam_gmapping) StderrLine: {'line': b'   33 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.236762] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.237186] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9\x1b[m\x1b[K,\n'}
+[51.237715] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.238152] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.238557] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.238973] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.239421] (slam_gmapping) StderrLine: {'line': b'   27 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.239925] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.240347] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9\x1b[m\x1b[K,\n'}
+[51.240787] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.241236] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.241853] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.242344] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.242832] (slam_gmapping) StderrLine: {'line': b'   27 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.243275] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.243677] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10\x1b[m\x1b[K,\n'}
+[51.244091] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.244615] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.245079] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.245606] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.246051] (slam_gmapping) StderrLine: {'line': b'   24 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.246478] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.246884] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10\x1b[m\x1b[K,\n'}
+[51.247318] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.248077] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.248778] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.249235] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.249879] (slam_gmapping) StderrLine: {'line': b'   24 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.250308] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.250763] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11\x1b[m\x1b[K,\n'}
+[51.251266] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.251765] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.252294] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.252823] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.253395] (slam_gmapping) StderrLine: {'line': b'   15 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.253864] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.254250] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11\x1b[m\x1b[K,\n'}
+[51.254787] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.255328] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.255854] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.256431] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.256877] (slam_gmapping) StderrLine: {'line': b'   15 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.257331] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.257860] (-) TimerEvent: {}
+[51.258397] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.259066] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.259633] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.260134] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.260667] (slam_gmapping) StderrLine: {'line': b'   27 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.261176] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.261772] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12\x1b[m\x1b[K,\n'}
+[51.262244] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.262756] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.263274] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.263801] (slam_gmapping) StderrLine: {'line': b'   27 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.264318] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.264718] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:5\x1b[m\x1b[K,\n'}
+[51.265090] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3\x1b[m\x1b[K,\n'}
+[51.265567] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.266013] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.266437] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.267373] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.267801] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.268204] (slam_gmapping) StderrLine: {'line': b'    6 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.268704] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.269146] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:5\x1b[m\x1b[K,\n'}
+[51.269645] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3\x1b[m\x1b[K,\n'}
+[51.270059] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.270459] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.270914] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.271352] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.271783] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.272201] (slam_gmapping) StderrLine: {'line': b'    6 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.272641] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.273046] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:6\x1b[m\x1b[K,\n'}
+[51.273528] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3\x1b[m\x1b[K,\n'}
+[51.274021] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.274436] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.274826] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.275261] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.275713] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.276153] (slam_gmapping) StderrLine: {'line': b'  185 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.276570] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.276994] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:6\x1b[m\x1b[K,\n'}
+[51.277548] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3\x1b[m\x1b[K,\n'}
+[51.278016] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.278429] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.278914] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.279361] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.279788] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.280242] (slam_gmapping) StderrLine: {'line': b'  185 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.280646] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.282327] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3\x1b[m\x1b[K,\n'}
+[51.283134] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.283608] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.284091] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.284532] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.285652] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:262:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.286186] (slam_gmapping) StderrLine: {'line': b'  262 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.286670] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.287130] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3\x1b[m\x1b[K,\n'}
+[51.287601] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.288123] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.288770] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.289360] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.289908] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/map.h:262:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.290382] (slam_gmapping) StderrLine: {'line': b'  262 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.290836] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.291345] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5\x1b[m\x1b[K,\n'}
+[51.291864] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4\x1b[m\x1b[K,\n'}
+[51.292429] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.292911] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.293460] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.293977] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.294390] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.294844] (slam_gmapping) StderrLine: {'line': b'   96 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.295229] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.295644] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5\x1b[m\x1b[K,\n'}
+[51.296068] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4\x1b[m\x1b[K,\n'}
+[51.296491] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.296914] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.297382] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.297907] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.298484] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.299046] (slam_gmapping) StderrLine: {'line': b'   96 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.299535] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.315189] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4\x1b[m\x1b[K,\n'}
+[51.316013] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.316503] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.316973] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.317500] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.318006] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.318498] (slam_gmapping) StderrLine: {'line': b'  197 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.318893] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.319321] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4\x1b[m\x1b[K,\n'}
+[51.319726] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.320140] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.320566] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.321614] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.322124] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.322587] (slam_gmapping) StderrLine: {'line': b'  197 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.323043] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.323436] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.323927] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.324346] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.324754] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.325175] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.325732] (slam_gmapping) StderrLine: {'line': b'   52 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.326152] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.326565] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[51.326933] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.327419] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.328358] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.328802] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.329191] (slam_gmapping) StderrLine: {'line': b'   52 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.329676] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.330133] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7\x1b[m\x1b[K,\n'}
+[51.330574] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.331007] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.331410] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.331804] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.332205] (slam_gmapping) StderrLine: {'line': b'  145 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K //end namespace\n'}
+[51.332636] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.333029] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7\x1b[m\x1b[K,\n'}
+[51.333540] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.334035] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.334483] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.334924] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.335328] (slam_gmapping) StderrLine: {'line': b'  145 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K //end namespace\n'}
+[51.335699] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.358049] (-) TimerEvent: {}
+[51.374260] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.375477] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.376021] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.376479] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.377005] (slam_gmapping) StderrLine: {'line': b'  250 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.377487] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.377894] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[51.378292] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.378765] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.379281] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.379852] (slam_gmapping) StderrLine: {'line': b'  250 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.380347] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.380832] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16\x1b[m\x1b[K,\n'}
+[51.381378] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[51.381931] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[51.382391] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.382871] (slam_gmapping) StderrLine: {'line': b'   17 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.383327] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.383787] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16\x1b[m\x1b[K,\n'}
+[51.384254] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[51.384690] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[51.385109] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[51.385650] (slam_gmapping) StderrLine: {'line': b'   17 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[51.386072] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.458407] (-) TimerEvent: {}
+[51.559567] (-) TimerEvent: {}
+[51.660459] (-) TimerEvent: {}
+[51.761308] (-) TimerEvent: {}
+[51.862124] (-) TimerEvent: {}
+[51.963071] (-) TimerEvent: {}
+[52.046207] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/transform.h:25\x1b[m\x1b[K,\n'}
+[52.047232] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/transform.cpp:3\x1b[m\x1b[K:\n'}
+[52.047786] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[52.048331] (slam_gmapping) StderrLine: {'line': b'  335 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[52.048830] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[52.049419] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[52.050017] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/datn/ydlidar_ws/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[52.050630] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/datn/ydlidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[52.051112] (slam_gmapping) StderrLine: {'line': b'  335 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[52.051560] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[52.063342] (-) TimerEvent: {}
+[52.164169] (-) TimerEvent: {}
+[52.265031] (-) TimerEvent: {}
+[52.365854] (-) TimerEvent: {}
+[52.466623] (-) TimerEvent: {}
+[52.567394] (-) TimerEvent: {}
+[52.668213] (-) TimerEvent: {}
+[52.769037] (-) TimerEvent: {}
+[52.869875] (-) TimerEvent: {}
+[52.970667] (-) TimerEvent: {}
+[53.071427] (-) TimerEvent: {}
+[53.172222] (-) TimerEvent: {}
+[53.273034] (-) TimerEvent: {}
+[53.373832] (-) TimerEvent: {}
+[53.474599] (-) TimerEvent: {}
+[53.575385] (-) TimerEvent: {}
+[53.676206] (-) TimerEvent: {}
+[53.777032] (-) TimerEvent: {}
+[53.877827] (-) TimerEvent: {}
+[53.978588] (-) TimerEvent: {}
+[54.079335] (-) TimerEvent: {}
+[54.180219] (-) TimerEvent: {}
+[54.388446] (-) TimerEvent: {}
+[54.489222] (-) TimerEvent: {}
+[54.590086] (-) TimerEvent: {}
+[54.690844] (-) TimerEvent: {}
+[54.791620] (-) TimerEvent: {}
+[54.892426] (-) TimerEvent: {}
+[54.993192] (-) TimerEvent: {}
+[55.093970] (-) TimerEvent: {}
+[55.194718] (-) TimerEvent: {}
+[55.295541] (-) TimerEvent: {}
+[55.396647] (-) TimerEvent: {}
+[55.497403] (-) TimerEvent: {}
+[55.598165] (-) TimerEvent: {}
+[55.698927] (-) TimerEvent: {}
+[55.799726] (-) TimerEvent: {}
+[55.900535] (-) TimerEvent: {}
+[56.001317] (-) TimerEvent: {}
+[56.102180] (-) TimerEvent: {}
+[56.202943] (-) TimerEvent: {}
+[56.303741] (-) TimerEvent: {}
+[56.404546] (-) TimerEvent: {}
+[56.505337] (-) TimerEvent: {}
+[56.606112] (-) TimerEvent: {}
+[56.706896] (-) TimerEvent: {}
+[56.807708] (-) TimerEvent: {}
+[56.908517] (-) TimerEvent: {}
+[57.009304] (-) TimerEvent: {}
+[57.110057] (-) TimerEvent: {}
+[57.210809] (-) TimerEvent: {}
+[57.311602] (-) TimerEvent: {}
+[57.412395] (-) TimerEvent: {}
+[57.513156] (-) TimerEvent: {}
+[57.613967] (-) TimerEvent: {}
+[57.714757] (-) TimerEvent: {}
+[57.815558] (-) TimerEvent: {}
+[57.916394] (-) TimerEvent: {}
+[58.017125] (-) TimerEvent: {}
+[58.117964] (-) TimerEvent: {}
+[58.218745] (-) TimerEvent: {}
+[58.319532] (-) TimerEvent: {}
+[58.420367] (-) TimerEvent: {}
+[58.521152] (-) TimerEvent: {}
+[58.621967] (-) TimerEvent: {}
+[58.722718] (-) TimerEvent: {}
+[58.823511] (-) TimerEvent: {}
+[58.924291] (-) TimerEvent: {}
+[59.025045] (-) TimerEvent: {}
+[59.125888] (-) TimerEvent: {}
+[59.226692] (-) TimerEvent: {}
+[59.327538] (-) TimerEvent: {}
+[59.428374] (-) TimerEvent: {}
+[59.529173] (-) TimerEvent: {}
+[59.630051] (-) TimerEvent: {}
+[59.730908] (-) TimerEvent: {}
+[59.832040] (-) TimerEvent: {}
+[59.933379] (-) TimerEvent: {}
+[60.034220] (-) TimerEvent: {}
+[60.135011] (-) TimerEvent: {}
+[60.235818] (-) TimerEvent: {}
+[60.336600] (-) TimerEvent: {}
+[60.437500] (-) TimerEvent: {}
+[60.538430] (-) TimerEvent: {}
+[60.573429] (slam_gmapping) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable transform\x1b[0m\n'}
+[60.638618] (-) TimerEvent: {}
+[60.739387] (-) TimerEvent: {}
+[60.840499] (-) TimerEvent: {}
+[60.941428] (-) TimerEvent: {}
+[61.042463] (-) TimerEvent: {}
+[61.143539] (-) TimerEvent: {}
+[61.244478] (-) TimerEvent: {}
+[61.345453] (-) TimerEvent: {}
+[61.446437] (-) TimerEvent: {}
+[61.547304] (-) TimerEvent: {}
+[61.645205] (slam_gmapping) StdoutLine: {'line': b'[ 75%] Built target transform\n'}
+[61.647508] (-) TimerEvent: {}
+[61.748310] (-) TimerEvent: {}
+[61.849076] (-) TimerEvent: {}
+[61.949850] (-) TimerEvent: {}
+[62.050571] (-) TimerEvent: {}
+[62.151343] (-) TimerEvent: {}
+[62.252051] (-) TimerEvent: {}
+[62.352778] (-) TimerEvent: {}
+[62.453477] (-) TimerEvent: {}
+[62.554148] (-) TimerEvent: {}
+[62.654852] (-) TimerEvent: {}
+[62.755631] (-) TimerEvent: {}
+[62.856394] (-) TimerEvent: {}
+[62.957118] (-) TimerEvent: {}
+[63.057886] (-) TimerEvent: {}
+[63.158647] (-) TimerEvent: {}
+[63.259384] (-) TimerEvent: {}
+[63.360149] (-) TimerEvent: {}
+[63.460878] (-) TimerEvent: {}
+[63.561673] (-) TimerEvent: {}
+[63.662626] (-) TimerEvent: {}
+[63.763361] (-) TimerEvent: {}
+[63.864140] (-) TimerEvent: {}
+[63.964995] (-) TimerEvent: {}
+[64.066185] (-) TimerEvent: {}
+[64.166880] (-) TimerEvent: {}
+[64.267666] (-) TimerEvent: {}
+[64.368832] (-) TimerEvent: {}
+[64.470021] (-) TimerEvent: {}
+[64.571233] (-) TimerEvent: {}
+[64.672440] (-) TimerEvent: {}
+[64.773163] (-) TimerEvent: {}
+[64.873914] (-) TimerEvent: {}
+[64.974670] (-) TimerEvent: {}
+[65.075395] (-) TimerEvent: {}
+[65.176143] (-) TimerEvent: {}
+[65.276894] (-) TimerEvent: {}
+[65.377656] (-) TimerEvent: {}
+[65.478366] (-) TimerEvent: {}
+[65.579108] (-) TimerEvent: {}
+[65.679854] (-) TimerEvent: {}
+[65.780565] (-) TimerEvent: {}
+[65.881325] (-) TimerEvent: {}
+[65.982018] (-) TimerEvent: {}
+[66.082759] (-) TimerEvent: {}
+[66.183485] (-) TimerEvent: {}
+[66.284196] (-) TimerEvent: {}
+[66.384886] (-) TimerEvent: {}
+[66.485624] (-) TimerEvent: {}
+[66.586332] (-) TimerEvent: {}
+[66.687033] (-) TimerEvent: {}
+[66.787818] (-) TimerEvent: {}
+[66.888548] (-) TimerEvent: {}
+[66.989370] (-) TimerEvent: {}
+[67.090168] (-) TimerEvent: {}
+[67.190890] (-) TimerEvent: {}
+[67.291682] (-) TimerEvent: {}
+[67.392394] (-) TimerEvent: {}
+[67.493090] (-) TimerEvent: {}
+[67.593870] (-) TimerEvent: {}
+[67.694631] (-) TimerEvent: {}
+[67.795417] (-) TimerEvent: {}
+[67.896161] (-) TimerEvent: {}
+[67.996908] (-) TimerEvent: {}
+[68.097655] (-) TimerEvent: {}
+[68.198353] (-) TimerEvent: {}
+[68.299051] (-) TimerEvent: {}
+[68.399837] (-) TimerEvent: {}
+[68.500601] (-) TimerEvent: {}
+[68.601365] (-) TimerEvent: {}
+[68.702060] (-) TimerEvent: {}
+[68.802774] (-) TimerEvent: {}
+[68.903507] (-) TimerEvent: {}
+[69.004257] (-) TimerEvent: {}
+[69.104946] (-) TimerEvent: {}
+[69.205663] (-) TimerEvent: {}
+[69.306328] (-) TimerEvent: {}
+[69.407030] (-) TimerEvent: {}
+[69.507776] (-) TimerEvent: {}
+[69.608520] (-) TimerEvent: {}
+[69.709416] (-) TimerEvent: {}
+[69.810241] (-) TimerEvent: {}
+[69.910952] (-) TimerEvent: {}
+[70.011732] (-) TimerEvent: {}
+[70.112480] (-) TimerEvent: {}
+[70.213188] (-) TimerEvent: {}
+[70.313899] (-) TimerEvent: {}
+[70.414624] (-) TimerEvent: {}
+[70.516172] (-) TimerEvent: {}
+[70.616931] (-) TimerEvent: {}
+[70.717673] (-) TimerEvent: {}
+[70.818375] (-) TimerEvent: {}
+[70.919081] (-) TimerEvent: {}
+[71.019816] (-) TimerEvent: {}
+[71.120577] (-) TimerEvent: {}
+[71.221341] (-) TimerEvent: {}
+[71.322021] (-) TimerEvent: {}
+[71.422698] (-) TimerEvent: {}
+[71.523413] (-) TimerEvent: {}
+[71.624166] (-) TimerEvent: {}
+[71.724932] (-) TimerEvent: {}
+[71.825678] (-) TimerEvent: {}
+[71.926393] (-) TimerEvent: {}
+[72.027083] (-) TimerEvent: {}
+[72.127822] (-) TimerEvent: {}
+[72.228563] (-) TimerEvent: {}
+[72.329258] (-) TimerEvent: {}
+[72.429997] (-) TimerEvent: {}
+[72.530708] (-) TimerEvent: {}
+[72.631387] (-) TimerEvent: {}
+[72.732103] (-) TimerEvent: {}
+[72.832813] (-) TimerEvent: {}
+[72.933584] (-) TimerEvent: {}
+[73.034266] (-) TimerEvent: {}
+[73.134962] (-) TimerEvent: {}
+[73.235707] (-) TimerEvent: {}
+[73.336414] (-) TimerEvent: {}
+[73.437165] (-) TimerEvent: {}
+[73.537888] (-) TimerEvent: {}
+[73.638573] (-) TimerEvent: {}
+[73.739269] (-) TimerEvent: {}
+[73.839959] (-) TimerEvent: {}
+[73.940674] (-) TimerEvent: {}
+[74.041399] (-) TimerEvent: {}
+[74.142093] (-) TimerEvent: {}
+[74.242756] (-) TimerEvent: {}
+[74.343422] (-) TimerEvent: {}
+[74.444142] (-) TimerEvent: {}
+[74.544823] (-) TimerEvent: {}
+[74.645538] (-) TimerEvent: {}
+[74.746241] (-) TimerEvent: {}
+[74.846965] (-) TimerEvent: {}
+[74.947715] (-) TimerEvent: {}
+[75.048455] (-) TimerEvent: {}
+[75.149164] (-) TimerEvent: {}
+[75.249891] (-) TimerEvent: {}
+[75.350615] (-) TimerEvent: {}
+[75.451318] (-) TimerEvent: {}
+[75.552064] (-) TimerEvent: {}
+[75.652775] (-) TimerEvent: {}
+[75.753505] (-) TimerEvent: {}
+[75.854396] (-) TimerEvent: {}
+[75.955198] (-) TimerEvent: {}
+[76.055925] (-) TimerEvent: {}
+[76.156677] (-) TimerEvent: {}
+[76.257405] (-) TimerEvent: {}
+[76.358106] (-) TimerEvent: {}
+[76.458858] (-) TimerEvent: {}
+[76.559586] (-) TimerEvent: {}
+[76.660306] (-) TimerEvent: {}
+[76.761038] (-) TimerEvent: {}
+[76.861801] (-) TimerEvent: {}
+[76.962545] (-) TimerEvent: {}
+[77.063310] (-) TimerEvent: {}
+[77.164064] (-) TimerEvent: {}
+[77.264778] (-) TimerEvent: {}
+[77.365514] (-) TimerEvent: {}
+[77.466234] (-) TimerEvent: {}
+[77.566988] (-) TimerEvent: {}
+[77.667707] (-) TimerEvent: {}
+[77.768462] (-) TimerEvent: {}
+[77.869251] (-) TimerEvent: {}
+[77.970007] (-) TimerEvent: {}
+[78.070794] (-) TimerEvent: {}
+[78.171822] (-) TimerEvent: {}
+[78.273019] (-) TimerEvent: {}
+[78.373816] (-) TimerEvent: {}
+[78.422612] (slam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable slam_gmapping\x1b[0m\n'}
+[78.473989] (-) TimerEvent: {}
+[78.574825] (-) TimerEvent: {}
+[78.675854] (-) TimerEvent: {}
+[78.776642] (-) TimerEvent: {}
+[78.877773] (-) TimerEvent: {}
+[78.978932] (-) TimerEvent: {}
+[79.079921] (-) TimerEvent: {}
+[79.181013] (-) TimerEvent: {}
+[79.281844] (-) TimerEvent: {}
+[79.382804] (-) TimerEvent: {}
+[79.483715] (-) TimerEvent: {}
+[79.584657] (-) TimerEvent: {}
+[79.685650] (-) TimerEvent: {}
+[79.786475] (-) TimerEvent: {}
+[79.887453] (-) TimerEvent: {}
+[79.988371] (-) TimerEvent: {}
+[80.089026] (-) TimerEvent: {}
+[80.189943] (-) TimerEvent: {}
+[80.291325] (-) TimerEvent: {}
+[80.391982] (-) TimerEvent: {}
+[80.492759] (-) TimerEvent: {}
+[80.498542] (slam_gmapping) StdoutLine: {'line': b'[100%] Built target slam_gmapping\n'}
+[80.541859] (slam_gmapping) CommandEnded: {'returncode': 0}
+[80.592956] (-) TimerEvent: {}
+[80.679071] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'install'}
+[80.680668] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/datn/ydlidar_ws/build/slam_gmapping'], 'cwd': '/home/datn/ydlidar_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'datn'), ('SSH_CLIENT', '10.42.0.1 51324 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/datn'), ('OLDPWD', '/home/datn'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'datn'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('PWD', '/home/datn/ydlidar_ws/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.1 51324 10.42.0.201 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/datn/ydlidar_ws/install/openslam_gmapping:/opt/ros/foxy')]), 'shell': False}
+[80.693192] (-) TimerEvent: {}
+[80.727314] (slam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[80.728945] (slam_gmapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[80.730760] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping\n'}
+[80.768783] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/lib/slam_gmapping/transform\n'}
+[80.793394] (-) TimerEvent: {}
+[80.808255] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_4ros_launch.py\n'}
+[80.847658] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/gmapping_x3_launch.py\n'}
+[80.884942] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_4ros_gmapping.launch.py\n'}
+[80.893583] (-) TimerEvent: {}
+[80.922376] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/test_gmapping.launch.py\n'}
+[80.961478] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/x3_slam.py\n'}
+[80.993762] (-) TimerEvent: {}
+[80.998354] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/launch/ydlidar_slam.py\n'}
+[81.036526] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/params/slam_gmapping.yaml\n'}
+[81.073945] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping\n'}
+[81.093936] (-) TimerEvent: {}
+[81.111027] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping\n'}
+[81.148857] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh\n'}
+[81.149809] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv\n'}
+[81.188280] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh\n'}
+[81.189148] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv\n'}
+[81.194086] (-) TimerEvent: {}
+[81.227802] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash\n'}
+[81.266344] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh\n'}
+[81.294303] (-) TimerEvent: {}
+[81.303554] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh\n'}
+[81.340907] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv\n'}
+[81.378709] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv\n'}
+[81.394465] (-) TimerEvent: {}
+[81.416753] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping\n'}
+[81.456471] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake\n'}
+[81.494255] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake\n'}
+[81.494832] (-) TimerEvent: {}
+[81.531936] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/datn/ydlidar_ws/install/slam_gmapping/share/slam_gmapping/package.xml\n'}
+[81.573731] (slam_gmapping) CommandEnded: {'returncode': 0}
+[81.594988] (-) TimerEvent: {}
+[81.696693] (-) TimerEvent: {}
+[81.776494] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 0}
+[81.782055] (-) EventReactorShutdown: {}

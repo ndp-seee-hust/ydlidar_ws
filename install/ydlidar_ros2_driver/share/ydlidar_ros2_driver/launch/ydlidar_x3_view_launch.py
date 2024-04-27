@@ -1,0 +1,1 @@
+/home/ndp/ydlidar_ws/ydlidar_ros2_driver-master/launch/ydlidar_x3_view_launch.py

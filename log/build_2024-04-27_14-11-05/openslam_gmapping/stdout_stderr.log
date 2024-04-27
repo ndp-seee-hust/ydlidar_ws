@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/datn/ydlidar_ws/build/openslam_gmapping/CMakeCache.txt is different than the directory /home/ndp/ydlidar_ws/build/openslam_gmapping where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/ndp/ydlidar_ws/openslam_gmapping" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:306: cmake_check_build_system] Error 1

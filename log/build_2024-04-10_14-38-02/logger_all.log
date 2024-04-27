@@ -1,0 +1,129 @@
+[0.223s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.223s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7feb020978b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7feb020978b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7feb01f14640>)
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.338s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ndp/ydlidar_ws'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2_driver-master) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2_driver-master' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.370s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ndp/ydlidar/install
+[0.370s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ndp/ydlidar_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ndp/ydlidar_ws/ydlidar_ros2_driver-master', 'symlink_install': True, 'test_result_base': None}
+[0.435s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.436s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ndp/ydlidar_ws/ydlidar_ros2_driver-master' with build type 'ament_cmake'
+[0.436s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ndp/ydlidar_ws/ydlidar_ros2_driver-master'
+[0.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndp/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ndp/ydlidar_ws/ydlidar_ros2_driver-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver
+[1.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndp/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ndp/ydlidar_ws/ydlidar_ros2_driver-master -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver
+[1.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndp/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ndp/ydlidar_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[5.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndp/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ndp/ydlidar_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[5.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ndp/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ndp/ydlidar_ws/build/ydlidar_ros2_driver
+[6.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[6.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ndp/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ndp/ydlidar_ws/build/ydlidar_ros2_driver
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver' for CMake module files
+[6.186s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver' for CMake config files
+[6.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[6.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[6.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[6.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[6.190s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/lib'
+[6.190s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[6.190s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[6.191s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[6.191s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[6.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[6.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[6.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[6.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[6.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[6.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[6.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[6.233s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver' for CMake module files
+[6.233s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver' for CMake config files
+[6.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[6.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[6.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[6.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[6.235s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/lib'
+[6.235s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[6.235s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[6.235s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[6.235s] Level 1:colcon.colcon_core.environment:checking '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[6.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[6.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[6.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[6.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[6.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[6.237s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ndp/ydlidar_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[6.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.237s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.242s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.263s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ndp/ydlidar_ws/install/local_setup.ps1'
+[6.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ndp/ydlidar_ws/install/_local_setup_util_ps1.py'
+[6.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ndp/ydlidar_ws/install/setup.ps1'
+[6.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ndp/ydlidar_ws/install/local_setup.sh'
+[6.267s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ndp/ydlidar_ws/install/_local_setup_util_sh.py'
+[6.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ndp/ydlidar_ws/install/setup.sh'
+[6.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ndp/ydlidar_ws/install/local_setup.bash'
+[6.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ndp/ydlidar_ws/install/setup.bash'
+[6.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ndp/ydlidar_ws/install/local_setup.zsh'
+[6.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ndp/ydlidar_ws/install/setup.zsh'
